@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "dependencies": {
+    "jquery": "^3.7.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --entry ./index.js -o ./",
+    "build": "webpack --mode production --entry ./index.js -o ./"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
